@@ -27,6 +27,7 @@ class _HomeScreenHeaderState extends State<HomeScreenHeader>
         child: Padding(
           padding: const EdgeInsetsDirectional.only(),
           child: TabBar(
+            indicatorColor: Theme.of(context).colorScheme.primary,
             controller: _tabController, // Added TabController
             labelColor: Theme.of(context).colorScheme.tertiary,
             unselectedLabelColor: Theme.of(context).colorScheme.scrim,
@@ -34,7 +35,7 @@ class _HomeScreenHeaderState extends State<HomeScreenHeader>
               const Tab(text: 'Today'),
               const Tab(text: 'Lounge'),
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   IconButton(
                     icon: const Icon(Icons.notifications),
