@@ -1,4 +1,4 @@
-import 'package:church_app/screens/home_outline_screen.dart';
+import 'package:church_app/screens/main_navigation_screen.dart';
 import 'package:church_app/text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen>
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     Future.delayed(const Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const HomeOutlineScreen()));
+          MaterialPageRoute(builder: (_) => const MainNavigationScreen()));
     });
   }
 
