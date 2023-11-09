@@ -2,16 +2,16 @@ import 'package:church_app/widgets/home_header.dart';
 import 'package:church_app/widgets/home_main_container.dart';
 import 'package:flutter/material.dart';
 
-class DefaultHomeScreen extends StatefulWidget {
-  const DefaultHomeScreen({
+class MainNavigationScreen extends StatefulWidget {
+  const MainNavigationScreen({
     super.key,
   });
 
   @override
-  State<DefaultHomeScreen> createState() => _DefaultHomeScreenState();
+  State<MainNavigationScreen> createState() => _MainNavigationScreenState();
 }
 
-class _DefaultHomeScreenState extends State<DefaultHomeScreen> {
+class _MainNavigationScreenState extends State<MainNavigationScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(

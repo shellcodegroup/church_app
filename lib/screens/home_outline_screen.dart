@@ -1,6 +1,6 @@
 import 'package:church_app/screens/bible_screen.dart';
 import 'package:church_app/screens/calendar_screen.dart';
-import 'package:church_app/screens/default_home_screen.dart';
+import 'package:church_app/screens/main_navigation_screen.dart';
 import 'package:church_app/screens/more_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +13,7 @@ class HomeOutlineScreen extends StatefulWidget {
 
 int currentPage = 0;
 List<Widget> pages = [
-  const DefaultHomeScreen(),
+  const MainNavigationScreen(),
   const BibleScreen(),
   const CalendarScreen(),
   const MoreScreen()
