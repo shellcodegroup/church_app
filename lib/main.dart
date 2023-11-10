@@ -1,3 +1,4 @@
+import 'package:church_app/screens/default_home_screen.dart';
 import 'package:church_app/screens/splash_screen.dart';
 import 'package:church_app/text.dart';
 import 'package:church_app/themes/dark_theme.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: churchtitle,
       // theme: lightTheme,
       darkTheme: darkTheme,
-      home: const SplashScreen(),
+      home: const DefaultHomeScreen(),
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:church_app/screens/home_outline_screen.dart';
 import 'package:church_app/widgets/home_header.dart';
 import 'package:church_app/widgets/home_main_container.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class DefaultHomeScreen extends StatefulWidget {
 class _DefaultHomeScreenState extends State<DefaultHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Column(
         children: [
           HomeScreenHeader(),
